@@ -1,8 +1,11 @@
 ## Laravel 5.4 Skeleton
 
 
-
 ### Configuration
+
+Install dependencies
+
+    composer install
 
 Configure the database connection in your `.env` file and run
 
