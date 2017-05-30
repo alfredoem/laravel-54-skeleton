@@ -1,17 +1,16 @@
 ## Laravel 5.4 Skeleton
 
-
 ### Configuration
 
 Install dependencies
 
     composer install
 
-Configure the database connection in your `.env` file and run
+Configure the database connection in your `.env` file and run the next command to create the tables in the database
 
     php artisan migrate
     
-Next
+Next poblate the database tables
 
     php artisan db:seed
     
