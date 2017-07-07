@@ -25,7 +25,7 @@ Send a GET HTTP request with the next headers:
 
 to the endpoint
 
-`/api/user?api_token=`
+`/api/users?api_token=`
 
 and replace the query string param `api_token` value with the value of the `column api_token` of the user generated in the `table users` (must be something like this 5AgOw2bFzgpdBc9gvgfBiXOtoTjFqvu8YD1moRjrBHg9qNjtlrMK1gATTDo9)
 
@@ -42,4 +42,4 @@ replace `:api_token` with the user api_token value
 
 and send the request to the endpoint without the query string param
 
-`/api/user`
+`/api/users`
